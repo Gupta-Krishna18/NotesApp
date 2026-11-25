@@ -27,6 +27,7 @@ public class EmployeeController {
         List<Employee> employees = (department == null || department.isBlank())
                 ? employeeService.getAllEmployees()
                 : employeeService.getEmployeesByDepartment(department);
+        System.out.println("cheking point");
         return ResponseEntity.ok(employees);
     }
 
