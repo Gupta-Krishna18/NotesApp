@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Employee API — Day 7 + Day 8 Practice
 
 A layered Spring Boot REST API using Java 17+, Spring Web, Spring Data JPA, Bean Validation, and MySQL.
@@ -154,3 +155,16 @@ If using IntelliJ, open the folder containing `pom.xml`, allow Maven to import d
 9. Explain the controller -> service -> repository flow without looking at the code.
 
 This is an educational local-development project, not a production-hardened API. Authentication, authorization, pagination, DTO response mapping, database migrations, and more extensive tests are intentionally left as next-step exercises.
+=======
+# 📝 Notes App – Java File I/O
+
+## 📌 Description
+A simple **CLI-based Notes Manager** built using Java **File I/O** concepts.  
+It allows users to **add notes** and **view saved notes**, storing them in a text file (`notes.txt`).  
+
+This project demonstrates:
+- File writing with **FileWriter**
+- File reading with **BufferedReader**
+- Exception handling in Java
+- Persisting data locall
+>>>>>>> d819931e8e4cba26dc5bf831a6bd9b98b80136dc
